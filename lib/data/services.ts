@@ -1,0 +1,58 @@
+import { Service } from '@/lib/store/service.store'
+
+export const dummyServices: Service[] = [
+  {
+    id: 's1',
+    vendorId: 'vendor-1',
+    title: 'Home Cleaning',
+    description: 'Professional home and apartment cleaning service',
+    category: 'cleaning',
+    price: 1200,
+    status: 'active',
+  },
+  {
+    id: 's2',
+    vendorId: 'vendor-1',
+    title: 'AC Repair',
+    description: 'AC servicing, gas refill and repair',
+    category: 'repair',
+    price: 800,
+    status: 'active',
+  },
+  {
+    id: 's3',
+    vendorId: 'vendor-2',
+    title: 'Salon at Home',
+    description: 'Beauty and grooming services at home',
+    category: 'beauty',
+    price: 1500,
+    status: 'active',
+  },
+  {
+    id: 's4',
+    vendorId: 'vendor-2',
+    title: 'Plumbing Service',
+    description: 'Leak fixing and bathroom fittings',
+    category: 'repair',
+    price: 600,
+    status: 'active',
+  },
+  {
+    id: 's5',
+    vendorId: 'vendor-3',
+    title: 'Deep Kitchen Cleaning',
+    description: 'Complete kitchen cleaning with chimney & tiles',
+    category: 'cleaning',
+    price: 1800,
+    status: 'active',
+  },
+  {
+    id: 's6',
+    vendorId: 'vendor-3',
+    title: 'Electrical Repair',
+    description: 'Switch boards, fans, lights & wiring issues',
+    category: 'repair',
+    price: 700,
+    status: 'active',
+  },
+]
